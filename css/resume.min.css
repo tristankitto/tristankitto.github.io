@@ -62,7 +62,6 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
-    color: #aa8c33;
 }
 
 @media (min-width:992px) {
@@ -158,4 +157,19 @@ a:active,
 a:focus,
 a:hover {
     color: #ffd966
+}
+
+.img-smaller {
+    max-width: 50px;
+}
+
+.project-image {
+    max-height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
 }
