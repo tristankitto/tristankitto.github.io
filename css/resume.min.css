@@ -156,7 +156,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: #ffd966
+    color: #ffd966;
 }
 
 .img-smaller {
@@ -172,4 +172,28 @@ a:hover {
 .project-image img {
     min-width: 500px;
     height: auto;
+}
+
+.new-tab {
+    color: #ffd966;
+    position: relative;
+    font-size: 30px;
+    margin-left: 8px;
+}
+
+.project-title {
+    color: #343a40;
+}
+
+.project-title:active,
+.project-title:focus,
+.project-title:hover {
+    color: #343a40;
+    text-decoration-color: #ffd966;
+}
+
+.vert-line {
+    font-size: 35px;
+    position: relative;
+    bottom: 10px;
 }
